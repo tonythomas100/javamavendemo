@@ -13,7 +13,7 @@ public class App {
         int b = Integer.parseInt(args[1]);
 
         int result = add(a, b);
-        System.out.println("Result = " + result);
+        System.out.println("Print Result = " + result);
     }
 
     public static int add(int a, int b) {

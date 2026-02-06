@@ -8,7 +8,7 @@
 
     <groupId>io.github.tonythomas100</groupId>
     <artifactId>java-maven-sonar-demo</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
 
     <name>Java Maven Sonar Demo</name>
     <description>Beginner Java Maven project for build, test, and Sonar analysis</description>
