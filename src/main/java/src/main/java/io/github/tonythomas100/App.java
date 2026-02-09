@@ -1,4 +1,4 @@
-package src.main.java.io.github.tonythomas100;
+package io.github.tonythomas100;
 
 public class App {
 
