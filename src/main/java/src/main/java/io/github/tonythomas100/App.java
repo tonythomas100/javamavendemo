@@ -11,12 +11,13 @@ public class App {
 
         int a = Integer.parseInt(args[0]);
         int b = Integer.parseInt(args[1]);
-
-        int result = add(a, b);
+        int c = Integer.parseInt(args[2]);
+        
+        int result = add(a, b, c);
         System.out.println("Print Result = " + result);
     }
 
-    public static int add(int a, int b) {
-        return a + b;
+    public static int add(int a, int b, int c) {
+        return a + b + c;
     }
 }
