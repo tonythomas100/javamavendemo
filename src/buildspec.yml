@@ -1,0 +1,23 @@
+version: 0.2
+
+env:
+  variables:
+    REPO_URL: https://https://github.com/tonythomas100/javamavendemo.git
+    BRANCH: main
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto17
+    commands:
+      - yum install -y git
+      - git clone -b $BRANCH $REPO_URL source
+      - cd source
+
+  build:
+    commands:
+      - mvn -B clean package
+
+artifacts:
+  files:
+    - source/target/*.jar
